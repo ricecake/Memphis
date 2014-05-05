@@ -1,0 +1,12 @@
+{application, memphis,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { memphis_app, []}},
+  {env, []}
+ ]}.
